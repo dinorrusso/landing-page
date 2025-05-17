@@ -18,6 +18,7 @@ html, body {
 /* common section styles */
 .section {
     width: 100%;
+    display: flex;
 }
 /* page header */
 .top-row {
@@ -25,7 +26,6 @@ html, body {
             height: 50px;
             border-radius: 10px 10px 0 0;
             color: white;
-            display: flex;
             align-items: start;
             justify-content: space-between;
             padding-bottom: 75PX;
@@ -49,7 +49,6 @@ html, body {
 .section-1 {
     background-color: #1f2937;
     color: #e5e7eb;
-    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -114,7 +113,6 @@ a {
 
 .section-2 {
     background-color: #EED8BF;
-    display: flex;
     flex-direction: column;
 }
 .section-2-heading {
@@ -180,7 +178,6 @@ a {
 
 .section-3 {
     background-color: #E2AE4C;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -214,7 +211,6 @@ a {
 .section-4 {
     background-color: #EED8BF;
     color : #1f2937;
-    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -276,7 +272,6 @@ a {
             background-color: #1f2937;
             border-radius: 0 0 10px 10px;
             color: white;
-            display: flex;
             justify-content: center;
             align-items: center;
             padding-top: 25px;
